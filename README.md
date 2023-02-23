@@ -2,6 +2,7 @@
 
 Welcome to my personal resumé webpage
 
-Completed as part of CodeSpace Academy Intro to Web (ITW) project
-ITW1 - Basic HTML structure
-ITW2 - Addition of links (internal and external) and images
+Completed as part of CodeSpace Academy Intro to Web (ITW) project <br />
+  ITW1 - Basic HTML structure <br />
+  ITW2 - Addition of links (internal and external) and images <br />
+  
