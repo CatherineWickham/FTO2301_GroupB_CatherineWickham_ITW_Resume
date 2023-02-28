@@ -1,0 +1,54 @@
+body {
+    font-family: Helvetica, Arial, sans-serif
+}
+
+header {
+    background-color: #e5f4ef;
+    padding: 20px;
+    border-bottom: 15px #f2f9f7 solid;
+}
+
+footer {
+    background-color: #e5f4ef;
+    padding: 20px;
+    border-top: 15px #f2f9f7 solid;
+}
+
+h1 {
+    color: #4f907c;
+}
+
+h2 {
+    color: #676d6d;
+}
+
+h3 {
+    color: #676d6d;
+}
+
+h4 {
+    color: #676d6d;
+}
+
+.institution {
+    color: #4f907c;
+}
+
+.dates {
+    color: #a8b1b1;
+    font-size: smaller;
+}
+
+p {
+    color: #676d6d;
+}
+
+a {
+    color: #4f907c;
+}
+
+#menu {
+    color: #676d6d;
+    text-decoration: none;
+    font-weight: bold;
+}
