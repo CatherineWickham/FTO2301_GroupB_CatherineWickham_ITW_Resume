@@ -1,9 +1,25 @@
 # Catherine Wickham Digital Resumé
 
-Welcome to my personal resumé webpage
+Author: Catherine Wickham<br />
+<br />
+Project description:<br />
+<br />
+Welcome to my personal resumé webpage. This page provides a summary of my education, work experience and skillset, as well as links to institutions I have studied/worked at and my contact information.
+Completed as part of CodeSpace Academy Intro to Web (ITW) project.<br />
+<br />
+Project code: FTO2301_GroupB_CatherineWickham_ITW_Resume<br />
+<br />
+ITW1 - Basic HTML structure
+<br />
+ITW2 - Add links (internal and external) and images
+<br />
+ITW3 - Add semantic elements & restructured files
+<br />
+ITW4 - Add font & background colours
+<br />
+ITW5 - Add spacing, update colour scheme & fonts
 
-Completed as part of CodeSpace Academy Intro to Web (ITW) project <br />
-  ITW1 - Basic HTML structure <br />
-  ITW2 - Addition of links (internal and external) and images <br />
-  ITW3 - Addition of semantic elements & restructuring of files <br />
-  ITW4 - Addition of font & background colours <br />
+Technologies used:
+
+- HTML
+- CSS

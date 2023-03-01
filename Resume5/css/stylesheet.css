@@ -1,0 +1,119 @@
+body {
+    font-family: Poppins;
+    background-color: #353232;
+}
+
+header {
+    background-color: #565656;
+    padding: 20px;
+
+}
+
+footer {
+    background-color: #565656;
+    padding: 20px;
+}
+
+h1 {
+    color: #00c896;
+    font-weight: 600;
+    font-size: 250%;
+    line-height: 80%;
+    padding-top: 1%;
+
+}
+
+h2 {
+    color: #c8fcea;
+    font-weight: 500;
+    line-height: 90%;
+    padding-bottom: 2%;
+}
+
+h3 {
+    color: #c8fcea;
+    font-weight: 600;
+}
+
+p {
+    color: #c8fcea;
+    font-weight: 400;
+    font-size: 90%;
+    line-height: 160% ;
+}
+
+h4 {
+    color: #00c896;
+    line-height: 90%;
+}
+
+.dates {
+    color: #7e978e;
+    font-size: 90%;
+}
+
+a {
+    color: #c8fcea;
+  }
+  
+a:hover {
+    text-decoration: none;
+  }
+
+nav {
+    color: #c8fcea;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 10px;
+    letter-spacing: 0.05em;
+}
+
+#title-box {
+    margin: 10px;
+}
+
+#profile-pic {
+    border-radius: 100%;
+    border-style: solid;
+    border-color: #676d6d;
+    border-width: 7px;
+    margin: 20px;
+
+}
+
+.column-1 {
+    margin: 30px;
+}
+
+.column-2 {
+    margin: 30px;
+    margin-top: 50px;
+}
+
+.column-3 {
+    margin: 30px;
+    margin-top: 50px;
+}
+
+#skills-box {
+    margin: 30px;
+    margin-bottom: 10%
+}
+
+#contact-heading {
+    margin: 10px;
+    margin-top: 5%
+}
+
+#contacts-box {
+    margin: 10px;
+    margin-bottom: 5%
+}
+
+#skills {
+    margin-top: 70px;
+}
+
+#experience {
+    margin-top: 70px;
+}
