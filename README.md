@@ -18,6 +18,8 @@ ITW3 - Add semantic elements & restructured files
 ITW4 - Add font & background colours
 <br />
 ITW5 - Add spacing, update colour scheme & fonts
+<br />
+ITW6 - Position elements, add functional icons
 
 Technologies used:
 
