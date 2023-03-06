@@ -20,6 +20,8 @@ ITW4 - Add font & background colours
 ITW5 - Add spacing, update colour scheme & fonts
 <br />
 ITW6 - Position elements, add functional icons
+<br />
+ITW6-2 - CSS Animation Challenge
 
 Technologies used:
 

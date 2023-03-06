@@ -1,0 +1,22 @@
+@keyframes bounce {
+    0% {transform: translateY(0px);}
+    100% {transform: translateY(-8px);
+    filter:opacity(70%);}
+    }
+
+#linked-in-logo {
+    position:absolute;
+    top: 100px;
+    left: 100px;
+    color:#00c896;
+    transform: scale(400%);
+}
+
+#linked-in-logo :hover {
+    animation-name: bounce;
+    animation-duration: 0.25s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
