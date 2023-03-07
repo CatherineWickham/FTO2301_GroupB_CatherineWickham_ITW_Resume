@@ -1,0 +1,285 @@
+body {
+    font-family: Poppins;
+    background-color: #353232;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient( rgba(86, 86, 86,1),
+     rgba(86, 86, 86, 0.164));
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    color: #00c896;
+    font-weight: 600;
+    font-size: 250%;
+    line-height: 80%;
+    padding-top: 1%;
+}
+
+h2 {
+    color: #c8fcea;
+    font-weight: 500;
+    line-height: 90%;
+    padding-bottom: 2%;
+}
+
+h3 {
+    color: #c8fcea;
+    font-weight: 600;
+    line-height: 90%;
+}
+
+h4 {
+    color: #00c896;
+    line-height: 90%;
+}
+
+p {
+    color: #c8fcea;
+    font-weight: 400;
+    font-size: 90%;
+    line-height: 160% ;
+}
+
+.dates {
+    color: #7e978e;
+    font-size: 90%;
+}
+
+a {
+    color: #c8fcea;
+  }
+  
+a:hover {
+    text-decoration: none;
+  }
+
+
+#profile-pic {
+    border-radius: 100%;
+    border-style: solid;
+    border-color: #00c896;
+    border-width: 7px;
+    margin: 2.5%;
+    position: relative;
+    right: 1%;
+}
+
+nav {
+    color: #c8fcea;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+#title-box {
+    margin-right: 8%;
+}
+
+#education-row-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+#education-1-heading {
+    margin-left: 4%;
+    padding: 2%;
+    flex:1
+}
+
+#education-1-details {
+    padding: 2%;
+    flex: 2;
+}
+
+#education-1-description {
+    padding: 2%;
+    flex: 3;
+    margin-right: 8%;
+}
+
+#education-row-2{
+    display: flex;
+    justify-content: space-around;
+}
+
+#education-2-heading {
+    margin-left: 4%;
+    padding: 2%;
+    flex:1
+}
+
+#education-2-details {
+    padding: 2%;
+    flex: 2;
+}
+
+#education-2-description {
+    padding: 2%;
+    flex: 3;
+    margin-right: 8%;
+}
+
+#education-row-3{
+    display: flex;
+    justify-content: space-around;
+}
+
+#education-3-heading {
+    margin-left: 4%;
+    padding: 2%;
+    flex:1
+}
+
+#education-3-details {
+    padding: 2%;
+    flex: 2;
+}
+
+#education-3-description {
+    padding: 2%;
+    flex: 3;
+    margin-right: 8%;
+}
+
+#experience-row-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+#experience-1-heading {
+    margin-left: 4%;
+    padding: 2%;
+    flex:1
+}
+
+#experience-1-details {
+    padding: 2%;
+    flex: 2;
+}
+
+#experience-1-description {
+    padding: 2%;
+    flex: 3;
+    margin-right: 8%;
+}
+
+#experience-row-2{
+    display: flex;
+    justify-content: space-around;
+}
+
+#experience-2-heading {
+    margin-left: 4%;
+    padding: 2%;
+    flex:1
+}
+
+#experience-2-details {
+    padding: 2%;
+    flex: 2;
+}
+
+#experience-2-description {
+    padding: 2%;
+    flex: 3;
+    margin-right: 8%;
+}
+
+#skills{
+    display: flex;
+    justify-content: space-around;
+}
+
+#skills-heading {
+    margin-left: 4%;
+    padding: 2%;
+    flex:1
+}
+
+#skills-box {
+    margin-top: 2%;
+    margin-bottom: 4%;
+    flex: 5.2;
+}
+
+footer {
+    background-image: linear-gradient( rgba(86, 86, 86, 0.164),
+     rgba(86, 86, 86,1));
+    padding: 2%;
+    display: flex;
+}
+
+#contact-heading {
+    margin-top: 6%;
+    margin-left: 4%;
+    margin-bottom: 6%;
+    flex: 1;
+}
+
+#contact-box {
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-bottom: 3%;
+    flex: 5.2;
+    font-size: 50px;
+}
+
+#download-cv {
+    position:fixed;
+    left: 91%;
+    margin-top: 3%;
+    font-size: 45px;
+}
+
+@keyframes bounce {
+    0% {transform: translateY(0px);}
+    100% {transform: translateY(-8px);
+    filter:opacity(70%);}
+    }
+
+.icons :hover {
+    animation-name: bounce;
+    animation-duration: 0.25s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.icons {
+    text-decoration: none;
+    color: #00c896;
+    margin: 1%;
+}
+
+label {
+    color: #c8fcea;
+    font-weight: 400;
+    font-size: 30%;
+    line-height: 160% ;
+}
+
+input, textarea, select {
+    background-color: #353232;
+    color: #c8fcea;
+    border-style: inset;
+    border-width: 2px;
+    padding: 5px;
+    font-family: Poppins;
+}
+
+#form-submit {
+    background-color:#00c896;
+    color: #353232;
+    border-color:#00c896;
+    border-style: outset;
+    border-width: 2px;
+    font-weight: 800;
+    padding-left: 10px;
+    padding-right: 12px;
+}

@@ -22,8 +22,11 @@ ITW5 - Add spacing, update colour scheme & fonts
 ITW6 - Position elements, add functional icons
 <br />
 ITW6-2 - CSS Animation Challenge
+<br />
+ITW7-1 - Add contact form & icon animations
 
 Technologies used:
 
 - HTML
 - CSS
+- FormSubmit
