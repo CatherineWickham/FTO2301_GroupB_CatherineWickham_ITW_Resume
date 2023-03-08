@@ -24,6 +24,8 @@ ITW6 - Position elements, add functional icons
 ITW6-2 - CSS Animation Challenge
 <br />
 ITW7-1 - Add contact form & icon animations
+<br />
+ITW7-2 - Add hero image & profile picture element
 
 Technologies used:
 
