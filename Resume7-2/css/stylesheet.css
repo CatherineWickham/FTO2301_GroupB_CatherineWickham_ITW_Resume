@@ -62,7 +62,6 @@ a:hover {
     text-decoration: none;
   }
 
-
 #profile-pic {
     border-radius: 100%;
     border-style: solid;
@@ -220,6 +219,14 @@ footer {
      rgba(86, 86, 86,1));
     padding: 2%;
     display: flex;
+    flex-direction: column;
+}
+
+#contact-box {
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-bottom: 3%;
+    display: flex;
 }
 
 #contact-heading {
@@ -229,12 +236,9 @@ footer {
     flex: 1;
 }
 
-#contact-box {
-    margin-top: 3%;
-    margin-left: 2%;
-    margin-bottom: 3%;
-    flex: 5.2;
+#social-icons-box {
     font-size: 50px;
+    flex: 5.2;
 }
 
 #download-cv {
@@ -244,6 +248,7 @@ footer {
     font-size: 45px;
 }
 
+/* Icons styling and animation */
 @keyframes bounce {
     0% {transform: translateY(0px);}
     100% {transform: translateY(-8px);
@@ -264,20 +269,31 @@ footer {
     margin: 1%;
 }
 
-label {
-    color: #c8fcea;
-    font-weight: 400;
-    font-size: 30%;
-    line-height: 160% ;
+/* Form styling */
+
+#contact-form-heading {
+    align-self: center;
+}
+
+#contact-form {
+    background-color: #353232;
+    padding: 4%;
+    margin: 2%;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 input, textarea, select {
     background-color: #353232;
     color: #c8fcea;
-    border-style: inset;
+    border-style: none;
+    border-bottom: rgba(86, 86, 86,1) solid;
     border-width: 2px;
-    padding: 5px;
     font-family: Poppins;
+    width: 95%;
+    margin: 1%
 }
 
 #form-submit {
@@ -287,6 +303,5 @@ input, textarea, select {
     border-style: outset;
     border-width: 2px;
     font-weight: 800;
-    padding-left: 10px;
-    padding-right: 12px;
+    width: 20%;
 }

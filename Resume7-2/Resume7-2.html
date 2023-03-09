@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Catherine Wickham Digital Resume</title>
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
     <link
@@ -180,72 +181,77 @@
     </article>
 
     <footer>
-      <h3 id="contact-heading">Contact</h3>
       <div id="contact-box">
-        <a
-          class="icons"
-          href="https://www.linkedin.com/in/catherine-wickham-70b037258"
-          target="_blank"
-          ><i class="fa fa-linkedin-square" aria-hidden="true" ;></i>
-        </a>
+        <h3 id="contact-heading">Contact</h3>
 
-        <a class="icons" href="mailto: cathhwickham@gmail.com" target="_blank"
-          ><i class="fa fa-envelope" aria-hidden="true"></i>
-        </a>
+        <div id="social-icons-box">
+          <a
+            class="icons"
+            href="https://www.linkedin.com/in/catherine-wickham-70b037258"
+            target="_blank"
+            ><i class="fa fa-linkedin-square" aria-hidden="true" ;></i>
+          </a>
 
-        <a class="icons" href="tel: +27716838349" target="_blank"
-          ><i class="fa fa-phone-square" aria-hidden="true"></i>
-        </a>
+          <a class="icons" href="mailto: cathhwickham@gmail.com" target="_blank"
+            ><i class="fa fa-envelope" aria-hidden="true"></i>
+          </a>
 
-        <a
-          class="icons"
-          href="https://github.com/CatherineWickham"
-          target="_blank"
-          ><i class="fa fa-github" aria-hidden="true"></i>
-        </a>
+          <a class="icons" href="tel: +27716838349" target="_blank"
+            ><i class="fa fa-phone-square" aria-hidden="true"></i>
+          </a>
 
-        <form
-          action="https://formsubmit.co/cathhwickham@gmail.com"
-          method="POST"
-        >
-          <div class="form-section">
-            <label for="user-email">Your email address:</label>
-            <input
-              type="email"
-              id="user-email"
-              name="user-email"
-              placeholder="name@example.com"
-              required
-            />
-          </div>
-          <div class="form-section">
-            <label for="subject">Subject:</label>
-            <select id="subject" name="subject" required>
-              <option value="job-offer">Job Opportunity</option>
-              <option value="general">General Enquiry</option>
-            </select>
-          </div>
-          <div class="form-section">
-            <label for="additional-info "
-              >Additional information (optional):</label
-            ><br />
-            <textarea
-              id="additional-info"
-              name="additional-info"
-              cols="45"
-              rows="7"
-              placeholder="Please enter any additional details here..."
-            ></textarea>
-          </div>
-          <input type="submit" id="form-submit" />
-          <input
-            type="hidden"
-            name="_subject"
-            value="Resume contact form response"
-          />
-          <input type="hidden" name="_template" value="box" />
-        </form>
+          <a
+            class="icons"
+            href="https://github.com/CatherineWickham"
+            target="_blank"
+            ><i class="fa fa-github" aria-hidden="true"></i>
+          </a>
+        </div>
       </div>
+
+      <p id="contact-form-heading">
+        If you would like to get in touch, please fill out the form below:
+      </p>
+
+      <form
+        id="contact-form"
+        action="https://formsubmit.co/cathhwickham@gmail.com"
+        method="POST"
+      >
+        <select id="subject" name="subject" required>
+          <option value="job-offer">
+            Please select the subject of your message
+          </option>
+          <option value="job-offer">Job Opportunity</option>
+          <option value="general">General Enquiry</option>
+        </select>
+
+        <input type="text" id="name" name="Name" placeholder="Name" required />
+
+        <input
+          type="email"
+          id="user-email"
+          name="user-email"
+          placeholder="Email Address"
+          required
+        />
+
+        <textarea
+          id="additional-info"
+          name="additional-info"
+          cols="45"
+          rows="4"
+          placeholder="Message"
+        ></textarea>
+
+        <input type="submit" id="form-submit" />
+        <input
+          type="hidden"
+          name="_subject"
+          value="Resume contact form response"
+        />
+        <input type="hidden" name="_template" value="box" />
+      </form>
     </footer>
   </body>
 </html>
