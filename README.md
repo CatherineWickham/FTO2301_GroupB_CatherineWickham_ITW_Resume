@@ -34,3 +34,6 @@ Technologies used:
 - HTML
 - CSS
 - FormSubmit
+
+Wireframe:
+![wireframe-1](https://user-images.githubusercontent.com/125868376/224314391-6c534e76-99b5-4f91-a07d-75dabcb78878.jpg)
