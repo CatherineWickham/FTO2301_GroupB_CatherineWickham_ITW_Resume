@@ -1,0 +1,368 @@
+body {
+    font-family: Poppins;
+    background-color: #353232;
+    margin: 0px;
+}
+
+header {
+    background-image: url(https://img.freepik.com/free-photo/calathea-orbifolia-natural-leaves-background_53876-98363.jpg?w=1380&t=st=1678279715~exp=1678280315~hmac=05e6ecbed04e6f334a61d5be65ef755ff85e002e91b167442c85d3793831f994);
+    background-repeat:no-repeat ;
+    background-size:100% ;
+    background-attachment:scroll;
+    background-color: #353232;
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    color: #00c896;
+    font-weight: 600;
+    line-height: 80%;
+    padding-top: 1%;
+}
+
+h2 {
+    color: #c8fcea;
+    font-weight: 500;
+    line-height: 90%;
+    padding-bottom: 1%;
+}
+
+h3 {
+    color: #c8fcea;
+    font-weight: 600;
+    line-height: 90%;
+}
+
+h4 {
+    color: #00c896;
+    line-height: 90%;
+}
+
+p {
+    color: #c8fcea;
+    font-weight: 400;
+    line-height: 160% ;
+}
+
+.dates {
+    color: #7e978e;
+}
+
+a {
+    color: #c8fcea;
+  }
+  
+a:hover {
+    text-decoration: none;
+  }
+
+  #profile-pic {
+    border-radius: 100%;
+    border-style: solid;
+    border-color: #00c896;
+    height: 20vw;
+    margin-top: 50%;
+}
+
+picture {
+    margin: 2.5%;
+    position: relative;
+    right: 1%;
+}
+
+nav {
+    color: #c8fcea;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    font-size: 0.9em;
+    padding: 1%;
+    text-align: center;
+    position: fixed;
+    background-image: linear-gradient(#353232, #1d1b1b);
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1;
+}
+
+#title-box {
+    margin-top: 5%;
+    margin-right: 6%;
+}
+
+.article-heading, .spacer {
+    margin-left: 4%;
+    padding: 2%;
+    flex:1;
+}
+
+.details {
+    padding: 2%;
+    flex: 2;
+}
+
+.description {
+    padding: 2%;
+    flex: 3;
+}
+
+#education-row-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+#education-row-2{
+    display: flex;
+    justify-content: space-around;
+}
+
+#education-row-3{
+    display: flex;
+    justify-content: space-around;
+}
+
+#experience-row-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+#experience-row-2{
+    display: flex;
+    justify-content: space-around;
+}
+
+#skills{
+    display: flex;
+    justify-content: space-around;
+}
+
+#skills-heading {
+    padding: 2%;
+    flex:1
+}
+
+#skills-box {
+    margin-top: 2%;
+    margin-bottom: 4%;
+    padding: 2%;
+    flex: 5.2;
+}
+
+footer {
+    background-image: linear-gradient( rgba(86, 86, 86, 0.164),
+     rgba(86, 86, 86,1));
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#contact-box {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    align-items: center;
+}
+
+#contact-heading {
+    margin: 2%;
+    flex: 1;
+}
+
+#social-icons-box {
+    font-size: 3em;
+    flex: 5.2;
+}
+
+
+/* Icons styling and animation */
+@keyframes bounce {
+    0% {transform: translateY(0px);}
+    100% {transform: translateY(-8px);
+    filter:opacity(70%);}
+    }
+
+.icons :hover {
+    animation-name: bounce;
+    animation-duration: 0.25s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.icons {
+    text-decoration: none;
+    color: #00c896;
+    margin: 1%;
+}
+
+/* Form styling */
+
+#contact-form-heading {
+    align-self: center;
+}
+
+#contact-form {
+    background-color: #353232;
+    padding: 1%;
+    margin: 2%;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.7em;
+}
+
+input, textarea, select {
+    background-color: #353232;
+    color: #c8fcea;
+    border-style: none;
+    border-bottom: rgba(86, 86, 86,1) solid;
+    border-width: 2px;
+    font-family: Poppins;
+    width: 95%;
+    margin: 1%;
+    font-size: 1em;
+}
+
+#form-submit {
+    background-color:#00c896;
+    color: #353232;
+    border-color:#00c896;
+    border-style: outset;
+    border-width: 2px;
+    font-weight: 800;
+    width: 20%;
+
+}
+
+
+/* ===================== Mobile ===================== */
+
+@media screen and (max-width: 425px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    h2 {
+        font-size: 0.9em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+    
+    h4 {
+        font-size: 0.9em;
+    }
+
+    p {
+        font-size: 0.7em;
+    }
+    #education-row-1 {
+        flex-direction: column;
+    }
+    
+    #education-row-2 {
+        flex-direction: column;
+    }
+    
+    #education-row-3 {
+        flex-direction: column;
+    }
+    
+    #experience-row-1 {
+        flex-direction: column;
+    }
+    
+    #experience-row-2 {
+        flex-direction: column;
+    }
+    #skills {
+        flex-direction: column;
+    }
+    .article-heading, .details, .description, #skills-box {
+        margin: 2%;
+    }
+    .article-heading {
+        margin-top: 8%;
+    }
+    .spacer{
+        display: none;
+    }
+    .icons{
+        font-size: 0.9em;
+    }
+    #profile-pic {
+        width: 20vw;
+        height: auto; 
+    }
+    #title-box {
+        font-size: 0.9em;
+        margin-top: 8%;
+    }
+
+    nav {
+        font-size: 0.75em;
+    
+    }
+    #contact-form {
+        font-size: 0.7em; 
+     }
+}
+
+/* ===================== Tablet ===================== */
+
+@media screen and (min-width: 426px) {
+    body {
+        font-size: 0.6em; 
+     }
+     article {
+        padding-right: 3%;
+    }
+    #contact-form {
+        font-size: 1em;
+    }
+    }
+
+@media screen and (min-width: 530px) {
+    body {
+        font-size: 0.7em; 
+     }
+    }
+
+@media screen and (min-width: 640px) {
+    body {
+        font-size: 0.8em; 
+     }
+}
+
+/* ===================== Laptop ===================== */
+
+@media screen and (min-width: 1024px) {
+    body {
+       font-size: 1.1em; 
+    }
+    #icons {
+        font-size: 1.1em;
+     }
+}
+
+/* ===================== Large laptop ===================== */
+
+@media screen and (min-width: 1440px) {
+    body {
+       font-size: 1.3em; 
+    }
+    #icons {
+        font-size: 1.3em;
+     }
+     header, article, footer{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}

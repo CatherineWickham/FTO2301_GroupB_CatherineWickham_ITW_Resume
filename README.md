@@ -26,6 +26,8 @@ ITW6-2 - CSS Animation Challenge
 ITW7-1 - Add contact form & icon animations
 <br />
 ITW7-2 - Add hero image & profile picture element
+<br />
+ITW8 - Add media queries, make styling responsive
 
 Technologies used:
 
