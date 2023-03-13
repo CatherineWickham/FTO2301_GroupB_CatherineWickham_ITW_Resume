@@ -61,7 +61,7 @@ a {
 /* ===== main grid modifiers ====== */
 main {
     display: grid;
-    grid-template-columns: 2f 1fr;
+    grid-template-columns: 5fr 1fr;
     grid-template-areas: 
     "main-content main-aside";
 }
