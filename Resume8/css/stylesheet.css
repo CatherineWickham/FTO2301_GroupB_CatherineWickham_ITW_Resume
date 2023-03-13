@@ -64,13 +64,14 @@ a:hover {
     border-style: solid;
     border-color: #00c896;
     height: 20vw;
-    margin-top: 50%;
 }
 
 picture {
     margin: 2.5%;
     position: relative;
     right: 1%;
+    align-self: center;
+    margin-top: 5%;
 }
 
 nav {
